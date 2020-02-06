@@ -19,7 +19,8 @@
 		/obj/item/weapon/lipstick/random,
 		/obj/random/soap,
 		/obj/item/weapon/reagent_containers/spray/cleaner/deodorant,
-		/obj/item/weapon/towel/random)
+		/obj/item/weapon/towel/random,
+		/obj/item/weapon/tooth_gel)
 
 /obj/item/weapon/storage/mirror/MouseDrop(obj/over_object as obj)
 	if(!(. = ..()))

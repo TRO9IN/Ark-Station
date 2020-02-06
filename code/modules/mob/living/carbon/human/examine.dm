@@ -328,6 +328,11 @@
 			pose = addtext(pose,".") //Makes sure all emotes end with a period.
 		msg += "[T.He] [pose]\n"
 
+	if(!(skipjumpsuit && skipface)) //Spacesuits block smell
+		for(var/smell in smells_and_hygene) //Smells for hygene system
+			msg += "<span class='notice'>[smell]</span>\n"
+		msg += "<br>"
+
 	var/show_descs = show_descriptors_to(user)
 	if(show_descs)
 		msg += "<span class='notice'>[jointext(show_descs, "<br>")]</span>"
