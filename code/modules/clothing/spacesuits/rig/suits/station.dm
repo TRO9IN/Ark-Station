@@ -280,7 +280,6 @@
 	species_restricted = list(SPECIES_HUMAN, SPECIES_UNATHI, SPECIES_SKRELL, SPECIES_RESOMI)
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/onmob_head_helmet_unathi.dmi',
-		SPECIES_RESOMI = 'code_ark/icons/mob/species/resomi/onmob_head_resomi.dmi',
 		SPECIES_SKRELL = 'icons/mob/species/skrell/onmob_head_skrell.dmi',
 		)
 
@@ -288,21 +287,18 @@
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_RESOMI)
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_suit_unathi.dmi',
-		SPECIES_RESOMI = 'code_ark/icons/mob/species/resomi/onmob_suit_resomi.dmi'
 		)
 
 /obj/item/clothing/shoes/magboots/rig/medical
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_RESOMI)
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_feet_unathi.dmi',
-		SPECIES_RESOMI = 'code_ark/icons/mob/species/resomi/onmob_feet_resomi.dmi'
 		)
 
 /obj/item/clothing/gloves/rig/medical
 	species_restricted = list(SPECIES_HUMAN,SPECIES_SKRELL, SPECIES_UNATHI, SPECIES_RESOMI)
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/species/unathi/generated/onmob_hands_unathi.dmi',
-		SPECIES_RESOMI = 'code_ark/icons/mob/species/resomi/onmob_hands_resomi.dmi'
 		)
 
 /obj/item/weapon/rig/medical/equipped

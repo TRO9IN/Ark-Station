@@ -145,9 +145,6 @@
 	icon = 'code_ark/icons/obj/clothing/species/resomi/obj_under_resomi.dmi'
 	icon_state = "tesh_uniform_bo"
 	item_state = "tesh_uniform_bo"
-	sprite_sheets = list(
-		SPECIES_RESOMI = 'code_ark/icons/mob/species/resomi/onmob_under_resomi.dmi'
-		)
 
 /obj/item/clothing/under/resomi/undercoat/standard/black_grey
 	name = "black and grey undercoat"

@@ -3183,6 +3183,7 @@
 #include "code_ark\code\modules\client\preference_setup\loadout\lists\misc.dm"
 #include "code_ark\code\modules\client\preference_setup\loadout\lists\resomi.dm"
 #include "code_ark\code\modules\client\preference_setup\loadout\lists\resomi_cloaks.dm"
+#include "code_ark\code\modules\clothing\clothing.dm"
 #include "code_ark\code\modules\clothing\accessories\accessories_resomi.dm"
 #include "code_ark\code\modules\clothing\glasses\glasses_resomi.dm"
 #include "code_ark\code\modules\clothing\head\soft_caps.dm"
