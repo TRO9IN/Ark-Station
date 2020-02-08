@@ -12,12 +12,12 @@
 	if(ishuman(M))
 		var/mob/living/carbon/human/H = M
 		if(prob(3))
-			M.visible_message("<B>\The [H]</B> smells like [flawor].")
+			M.visible_message("<B>\The [H]</B> smells like[flawor].")
 		if(!smelled)
-			to_chat(M,"<span class='notice'>You smell like [flawor]</span>")
+			to_chat(M,"<span class='notice'>You smell like[flawor]</span>")
 			smelled = TRUE
 		var/datum/gender/T = gender_datums[H.get_gender()]
-		var/msg = "[T.He] [T.is] smell like [flawor]"
+		var/msg = "[T.He] [T.is] smell like[flawor]"
 		if(!(msg in H.smells_and_hygene))
 			H.smells_and_hygene += msg
 
@@ -172,7 +172,7 @@
 		var/mob/living/carbon/human/H = M
 		var/datum/gender/T = gender_datums[H.get_gender()]
 		if(H == user)
-			to_chat(user, "<span class='notice'>[user] started washing your hair with shampoo.</span>")
+			to_chat(user, "<span class='notice'>You started washing your hair with shampoo.</span>")
 			if(do_after(user, 20, H) && !("[T.His] hair is clean and silky!" in H.smells_and_hygene))
 				user.visible_message("<span class='notice'>[user] washes [T.his] hair with shampoo.</span>")
 				H.smells_and_hygene += "[T.His] hair is clean and silky!"
@@ -315,7 +315,7 @@
 	item_state = "tooth_gel"
 
 /obj/item/weapon/lipstick/fashionable
-	desc = "A fashionable brand of lipstick."
+	desc = "Exquisite lipstick for the elect by Rosso Caprice!"
 	icon = 'icons/obj/parfume__cosmetics.dmi'
 	icon_state = "Rosso Caprice Lipstick"
 
@@ -328,15 +328,11 @@
 		icon_state = "Rosso Caprice Lipstick"
 
 /obj/item/weapon/lipstick/fashionable/red
-	name = "Red fashionable lipstick"
+	name = "Fashionable red lipstick"
 	colour = "lips_red_s"
 
-/obj/item/weapon/lipstick/fashionable/red
-	name = "Red fashionable lipstick"
-	colour = "red"
-
 /obj/item/weapon/lipstick/fashionable/carmine
-	name = "Carmine fashionable lipstick"
+	name = "Fashionable carmine lipstick"
 	colour = "carmine"
 
 /obj/item/weapon/lipstick/fashionable/crimson
