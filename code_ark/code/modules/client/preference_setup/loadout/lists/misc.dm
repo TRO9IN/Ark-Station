@@ -37,7 +37,15 @@
 	sort_category = "Cosmetics"
 	cost = 1
 	path = /obj/item/weapon/toothbrush
-	flags = GEAR_HAS_TYPE_SELECTION
+
+/datum/gear/toothbrush/New()
+	gear_tweaks += new/datum/gear_tweak/path(list(
+		"red toothbrush" = /obj/item/weapon/toothbrush/red,
+		"pink toothbrush" = /obj/item/weapon/toothbrush/pink,
+		"blue toothbrush" = /obj/item/weapon/toothbrush/blue,
+		"green toothbrush" = /obj/item/weapon/toothbrush/green,
+		"yellow toothbrush" = /obj/item/weapon/toothbrush/yellow
+		))
 
 /datum/gear/perfume
 	display_name = "perfume"
