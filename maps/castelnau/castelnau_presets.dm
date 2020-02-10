@@ -158,9 +158,6 @@ var/const/NETWORK_PROMETEUS   = "Prometeus"
 
 // Shuttle SMES
 /obj/machinery/power/smes/buildable/preset/castelnau/shuttle
-	uncreated_component_parts = list(
-		/obj/item/weapon/stock_parts/smes_coil/super_io = 1,
-		/obj/item/weapon/stock_parts/smes_coil/super_capacity = 1)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 	_input_on = TRUE
