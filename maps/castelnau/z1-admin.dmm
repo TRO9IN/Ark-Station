@@ -2733,7 +2733,7 @@
 "hd" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1;
-	 id_tag = "merchant_ship_vent"
+	id_tag = "merchant_ship_vent"
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/merchant/home)
@@ -2999,7 +2999,7 @@
 "hE" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 4;
-	 id_tag = "merchant_station_vent"
+	id_tag = "merchant_station_vent"
 	},
 /turf/simulated/floor/plating,
 /area/merchant_station)
